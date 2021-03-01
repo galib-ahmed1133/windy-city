@@ -1,0 +1,29 @@
+.player-container{
+    display: flex;
+}
+.player-info{
+    width: 70%;
+    margin-left: 40px;
+}
+.card-container{
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+.selected-player{
+    /* color: white; */
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px ;
+    margin-left: 60px;
+    margin-top: 32px;
+    
+}
+.selected-player h1{
+    background-color: yellow;
+    margin: auto;
+}
